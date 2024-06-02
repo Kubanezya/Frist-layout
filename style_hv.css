@@ -1,0 +1,64 @@
+body{
+    margin-top: 40px;
+}
+
+.header_logo {
+    display: none;
+}
+.btn_brend {
+    display: inline-block;
+}
+.btn_address {
+    display: inline-block;
+}
+.btn_add_service {
+    display: none;
+}
+.main_nav_list{ 
+    flex-wrap: wrap;
+    overflow: visible;
+}
+.header_button {
+    margin-right: 20px;
+}
+
+.btn_repair {
+    display: inline-block;
+    background-image: url(ic/repair.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: auto;
+    border:none;
+    text-align: left;
+    height: 40px;
+    width: 168px;
+    background-color: white;
+    padding: 0;
+    
+}
+.btn_checkstatus {
+    display: inline-block;
+    background-image: url(ic/checkstatus.png);
+    background-repeat: no-repeat;
+    background-position: right;
+   
+    border:none;
+    text-align: left;
+    height: 40px;
+    width: 168px;
+    background-color: white;
+    padding:0;
+}
+
+.title_main {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    font-weight: bold;
+   
+}
+.main_title {
+    display: inline-block;
+   
+
+}

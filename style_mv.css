@@ -1,0 +1,80 @@
+body {
+    margin-top: 20px;
+    }
+    .header_logo li{
+    margin-right: 20px;    
+    }
+    .header_logo_divider_left {
+            display: inline;
+            width: 2px;
+            height: 32px;
+            background-image: url(ic/divider.png); 
+            background-repeat: no-repeat;
+    }
+    
+    .header_logo_call {
+                display: inline;
+                margin-left:auto;
+                width: 40px;
+                height: 40px;
+                background-image: url(ic/call.png); 
+                background-repeat: no-repeat; 
+    }
+    .header_logo_chat {
+                display: inline;
+                width: 40px;
+                height: 40px;
+                background-image: url(ic/chat.png); 
+                background-repeat: no-repeat; 
+    }    
+    .header_logo_profile {
+        display: inline;
+        width: 40px;
+        height: 40px;
+        background-image: url(ic/profile.png); 
+        background-repeat: no-repeat; 
+    }
+    
+    .btn_repair {
+        display: none;
+    }
+   
+    .btn_checkstatus {
+        display: none;
+    }
+    
+    .button_repair {
+        display: none;
+    }
+    
+    .btn_checkstatus {
+        display: none;
+    }
+    
+    .main_content_item {
+            display:flex;
+            flex-wrap: nowrap;
+            gap:42px;    
+            margin: 0px;
+            padding: 20px;
+    }
+        
+    .main_logo{
+         border-radius: 5px;
+         width:360px;
+         height: 208px; 
+    } 
+    .main_content_block{
+          margin: 0;
+          padding: 0;  
+        }
+    .main_content_text{ 
+        height: auto;    
+        max-height: 22vw;
+        overflow: hidden;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+
+        
+    }
