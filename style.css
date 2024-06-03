@@ -1,80 +1,57 @@
-body {
-    margin-top: 20px;
-    }
-    .header__logo li{
-    margin-right: 20px;    
-    }
-    .header___logo_divider_left {
-            display: inline;
-            width: 2px;
-            height: 32px;
-            background-image: url(ic/divider.png); 
-            background-repeat: no-repeat;
-    }
-    
-    .header__logo_call {
-                display: inline;
-                margin-left:auto;
-                width: 40px;
-                height: 40px;
-                background-image: url(ic/call.png); 
-                background-repeat: no-repeat; 
-    }
-    .header__logo_chat {
-                display: inline;
-                width: 40px;
-                height: 40px;
-                background-image: url(ic/chat.png); 
-                background-repeat: no-repeat; 
-    }    
-    .header__logo_profile {
-        display: inline;
-        width: 40px;
-        height: 40px;
-        background-image: url(ic/profile.png); 
-        background-repeat: no-repeat; 
-    }
-    
-    .btn_repair {
-        display: none;
-    }
-   
-    .btn_checkstatus {
-        display: none;
-    }
-    
-    .button_repair {
-        display: none;
-    }
-    
-    .btn_checkstatus {
-        display: none;
-    }
-    
-    .content__item {
-            display:flex;
-            flex-wrap: nowrap;
-            gap:42px;    
-            margin: 0px;
-            padding: 20px;
-    }
-        
-    .main_logo{
-         border-radius: 5px;
-         width:360px;
-         height: 208px; 
-    } 
-    .content__block{
-          margin: 0;
-          padding: 0;  
-        }
-    .block__text{ 
-        height: auto;    
-        max-height: 22vw;
-        overflow: hidden;
-        font-size: 14px;
-        line-height: 20px;
-        letter-spacing: 0.2px;
+body{
+    margin-top: 40px;
+}
 
-        
-    }
+.header__logo {
+    display: none;
+}
+.btn_brend {
+    display: inline-block;
+}
+.btn_address {
+    display: inline-block;
+}
+.btn_add_service {
+    display: none;
+}
+.nav-list{ 
+    flex-wrap: wrap;
+    overflow: visible;
+}
+.main-title__btn {
+    margin-right: 20px;
+    background-color: #F8F8F8;
+}
+
+.btn_repair {
+    display: inline-block;
+    background-image: url(ic/repair.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: auto;
+    border:none;
+    text-align: left;
+    height: 40px;
+    width: 168px;
+    padding: 0;    
+}
+.btn_checkstatus {
+    display: inline-block;
+    background-image: url(ic/checkstatus.png);
+    background-repeat: no-repeat;
+    background-position: right;
+   
+    border:none;
+    text-align: left;
+    height: 40px;
+    width: 168px;
+    padding:0;
+}
+
+.main-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    font-weight: bold;
+   
+}
