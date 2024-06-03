@@ -2,7 +2,7 @@ body{
     margin-top: 40px;
 }
 
-.header_logo {
+.header__logo {
     display: none;
 }
 .btn_brend {
@@ -14,12 +14,13 @@ body{
 .btn_add_service {
     display: none;
 }
-.main_nav_list{ 
+.nav-list{ 
     flex-wrap: wrap;
     overflow: visible;
 }
-.header_button {
+.main-title__btn {
     margin-right: 20px;
+    background-color: #F8F8F8;
 }
 
 .btn_repair {
@@ -32,9 +33,7 @@ body{
     text-align: left;
     height: 40px;
     width: 168px;
-    background-color: #F8F8F8;
-    padding: 0;
-    
+    padding: 0;    
 }
 .btn_checkstatus {
     display: inline-block;
@@ -46,19 +45,13 @@ body{
     text-align: left;
     height: 40px;
     width: 168px;
-    background-color:#F8F8F8;
     padding:0;
 }
 
-.title_main {
+.main-title {
     display: flex;
     justify-content: space-between;
     width: 100vw;
     font-weight: bold;
    
-}
-.main_title {
-    display: inline-block;
-   
-
 }
