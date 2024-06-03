@@ -1,168 +1,80 @@
-@font-face {
-    font-family: TTLakes;
-    src: url("/font/TTLakes-Regular.woff") format("woff");
-}
-
 body {
-    font-family: TTLakes, serif;
-    margin: 0;
-    min-width: 320px;
-    background-color:#F8F8F8; 
-
-}
-.header{
-           
-    background-color: white;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding:0px 20px;
-}
-.header__logo{
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;  
-    padding: 19px 0; 
-    list-style-type: none;
-}
-.header__logo_burger {
+    margin-top: 20px;
+    }
+    .header__logo li{
+    margin-right: 20px;    
+    }
+    .header___logo_divider_left {
+            display: inline;
+            width: 2px;
+            height: 32px;
+            background-image: url(ic/divider.png); 
+            background-repeat: no-repeat;
+    }
     
-    width: 40px;
-    height: 40px;
-    background-image: url(ic/burger.png);
-    background-repeat: no-repeat;
-     
-}
-.header__logo_divider_left {
-    display: none;
-   
-}
-.header__logo_group {
-    width: 96.55px;
-    height: 50.81px;
-    background-image: url(ic/group.png);
-    background-repeat: no-repeat;
-}
-
-.header__logo_call {
-   display: none;
-}
-
-.header__logo_chat {
-    display: none;
- }
-
-
-.header__logo_divider {
-    width: 2px;
-    height: 32px;
-    background-image: url(ic/divider.png); 
-    background-repeat: no-repeat; 
-}
-
-
-.header__logo_repair {
-    width: 40px;
-    margin:0;
-    height: 40px;
-    background-image: url(ic/repair.png);
-    background-repeat: no-repeat;
-}
-.header__logo_checkstatus{
-    width: 40px;
-    height: 40px;
-    background-image: url(ic/checkstatus.png);
-    background-repeat: no-repeat;
-}
-.btn_repair {
-    display: none;
-}
-.btn_checkstatus {
-    display: none;
-}
-.main-title__title{ 
-margin: 0;
-padding-left: 10px;
-border-left: 4px solid  #41F6D7;
-font-size: 28px;
-line-height: 40px;
-letter-spacing: -0.6px;
-color: #1B1C21;
-font-weight: 1000;
-
-}
-.main_nav{margin: 0;   
-   
-}
-.nav-list{ 
-    display:flex;
-    flex-wrap: nowrap;
-    margin: 0; 
-    padding: 0;
-    padding-left: 16px; 
-    overflow: scroll;
+    .header__logo_call {
+                display: inline;
+                margin-left:auto;
+                width: 40px;
+                height: 40px;
+                background-image: url(ic/call.png); 
+                background-repeat: no-repeat; 
+    }
+    .header__logo_chat {
+                display: inline;
+                width: 40px;
+                height: 40px;
+                background-image: url(ic/chat.png); 
+                background-repeat: no-repeat; 
+    }    
+    .header__logo_profile {
+        display: inline;
+        width: 40px;
+        height: 40px;
+        background-image: url(ic/profile.png); 
+        background-repeat: no-repeat; 
+    }
     
-    
-}
-
-.nav-list__item  {
-
-   height:40px;
-   display: inline;
-   border: 2px solid #F8F8F8;
-   text-decoration: none;
-   color:#7E7E82;
-   line-height: 1;
-   border-radius: 10px;
-   padding: 10px 15px;
-   white-space: nowrap;
+    .btn_repair {
+        display: none;
+    }
    
-}
+    .btn_checkstatus {
+        display: none;
+    }
+    
+    .button_repair {
+        display: none;
+    }
+    
+    .btn_checkstatus {
+        display: none;
+    }
+    
+    .content__item {
+            display:flex;
+            flex-wrap: nowrap;
+            gap:42px;    
+            margin: 0px;
+            padding: 20px;
+    }
+        
+    .main_logo{
+         border-radius: 5px;
+         width:360px;
+         height: 208px; 
+    } 
+    .content__block{
+          margin: 0;
+          padding: 0;  
+        }
+    .block__text{ 
+        height: auto;    
+        max-height: 22vw;
+        overflow: hidden;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
 
-.main_nav_item:hover, .main_nav_item:focus {
-     border: 2px solid #B8FFEC;    
-}
-.btn_brend {
-    display: none;
-}
-.btn_address {
-    display: none;
-}
-
-.content__item {
-display:flex;
-flex-wrap: wrap;
-margin: 0px;
-}
- 
-.block__text-btn {
-    display: block;
-    border:0;
-    height: 24px;
-    width: 132px;
-    padding-left: 24px;
-    background-color:#F8F8F8; 
-    background-image: url(ic/expand.png); 
-    background-repeat: no-repeat;
-    background-size: 24px 24px;
-    font-weight: bold;
-
-
-}
-.content__block{
-    display: flex;
-    flex-direction: column;
-    gap:10px;
-    padding: 16px;
-}
-.block__text{ 
-height: auto;    
-max-height: 28vw;
-overflow: hidden;
-line-height: 18px;
-letter-spacing: 0.2px;
-font-size: 14px;
-}
-
-.main_logo{
-    border-radius: 2px; 
-}
+        
+    }
