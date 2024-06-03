@@ -2,7 +2,7 @@ body{
     margin-top: 40px;
 }
 
-.header-list{
+.header-list__item{
     display: none;
 }
 
