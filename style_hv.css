@@ -2,18 +2,10 @@ body{
     margin-top: 40px;
 }
 
-.header__logo {
+.header-list__item{
     display: none;
 }
-.btn_brend {
-    display: inline-block;
-}
-.btn_address {
-    display: inline-block;
-}
-.btn_add_service {
-    display: none;
-}
+
 .nav-list{ 
     flex-wrap: wrap;
     overflow: visible;
@@ -21,6 +13,7 @@ body{
 .main-title__btn {
     margin-right: 20px;
     background-color: #F8F8F8;
+    font-weight: 400;
 }
 
 .btn_repair {
@@ -48,10 +41,19 @@ body{
     padding:0;
 }
 
+.highlight {
+    display: inline;
+    width: 3px;
+    background-image: url(ic/highlight_hs.png);
+    background-repeat: no-repeat ;  
+      
+}
+
 .main-title {
-    display: flex;
+    
     justify-content: space-between;
     width: 100vw;
     font-weight: bold;
    
 }
+
