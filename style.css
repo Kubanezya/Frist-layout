@@ -1,9 +1,7 @@
 @font-face {
-    font-family: "TT Lakes";
-    src: url("font/TTLakes-Regular.woff") format(woff);
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+    font-family: TTLakes;
+    src: url("/font/TTLakes-Regular.woff") format("woff");
+}
 
 body {
     font-family: TTLakes, serif;
@@ -19,14 +17,14 @@ body {
     margin-bottom: auto;
     padding:0px 20px;
 }
-.header_logo{
+.header__logo{
     display: flex;
     justify-content: space-between; 
     align-items: center;  
     padding: 19px 0; 
     list-style-type: none;
 }
-.header_logo_burger {
+.header__logo_burger {
     
     width: 40px;
     height: 40px;
@@ -34,27 +32,27 @@ body {
     background-repeat: no-repeat;
      
 }
-.header_logo_divider_left {
+.header__logo_divider_left {
     display: none;
    
 }
-.header_logo_group {
+.header__logo_group {
     width: 96.55px;
     height: 50.81px;
     background-image: url(ic/group.png);
     background-repeat: no-repeat;
 }
 
-.header_logo_call {
+.header__logo_call {
    display: none;
 }
 
-.header_logo_chat {
+.header__logo_chat {
     display: none;
  }
 
 
-.header_logo_divider {
+.header__logo_divider {
     width: 2px;
     height: 32px;
     background-image: url(ic/divider.png); 
@@ -62,14 +60,14 @@ body {
 }
 
 
-.header_logo_repair {
+.header__logo_repair {
     width: 40px;
     margin:0;
     height: 40px;
     background-image: url(ic/repair.png);
     background-repeat: no-repeat;
 }
-.header_logo_checkstatus{
+.header__logo_checkstatus{
     width: 40px;
     height: 40px;
     background-image: url(ic/checkstatus.png);
@@ -81,7 +79,7 @@ body {
 .btn_checkstatus {
     display: none;
 }
-.main_title{ 
+.main-title__title{ 
 margin: 0;
 padding-left: 10px;
 border-left: 4px solid  #41F6D7;
@@ -95,7 +93,7 @@ font-weight: 1000;
 .main_nav{margin: 0;   
    
 }
-.main_nav_list{ 
+.nav-list{ 
     display:flex;
     flex-wrap: nowrap;
     margin: 0; 
@@ -106,7 +104,7 @@ font-weight: 1000;
     
 }
 
-.main_nav_item  {
+.nav-list__item  {
 
    height:40px;
    display: inline;
@@ -130,13 +128,13 @@ font-weight: 1000;
     display: none;
 }
 
-.main_content_item {
+.content__item {
 display:flex;
 flex-wrap: wrap;
 margin: 0px;
 }
  
-.main_content_button {
+.block__text-btn {
     display: block;
     border:0;
     height: 24px;
@@ -150,13 +148,13 @@ margin: 0px;
 
 
 }
-.main_content_block{
+.content__block{
     display: flex;
     flex-direction: column;
     gap:10px;
     padding: 16px;
 }
-.main_content_text{ 
+.block__text{ 
 height: auto;    
 max-height: 28vw;
 overflow: hidden;
