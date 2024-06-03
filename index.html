@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="https://kubanezya.github.io/Frist-layout/font/TTLakes-Regular.woff" as="font" type="font/woff" crossorigin>
-    
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (min-width: 768px)" href="style_mv.css">
@@ -13,35 +11,36 @@
 </head>
 <body>
     <header class="header"> 
-        <ul class="header__logo">
-            <li class="header__logo_burger"></li>
-            <li class="header__logo_divider_left"></li> 
-            <li class="header__logo_group"></li>
-            <li class="header__logo_call"></li>
-            <li class="header__logo_chat"></li>
-            <li class="header__logo_profile"></li>
-            <li class="header__logo_divider"></li> 
-            <li class="header__logo_repair"></li>  
-            <li class="header__logo_checkstatus"></li>
+        <ul class="header-list">
+            <li class="header-list__item burger"></li>
+            <li class="header-list__item divider_left"></li> 
+            <li class="header-list__item group"></li>
+            <li class="header-list__item call"></li>
+            <li class="header-list__item chat"></li>
+            <li class="header-list__item profile"></li>
+            <li class="header-list__item divider"></li> 
+            <li class="header-list__item repair"></li>  
+            <li class="header-list__item checkstatus"></li>
             
         </ul>     
     </header>
     <main class="main">
         <div class="main-title">
+            <span class="highlight"></span>
             <h1 class="main-title__title">Услуги и сервисы</h1>
             <button class="main-title__btn btn_repair" type="button">Оставить заявку</button>
             <button class="main-title__btn btn_checkstatus" type="button">Статус ремонта</button>
         </div>
         <nav class="main-nav">
-            <div class="nav-list">
-                <a href="" class="nav-list__item btn_brend">Ремонтируемые бренды</a>
-                <a href="" class="nav-list__item btn_device">Ремонтируемые устройства</a>
-                <a href="" class="nav-list__item btn_add_service">Дополнительные услуги</a>
-                <a href="" class="nav-list__item btn_price">Цена на услуги</a>
-                <a href="" class="nav-list__item btn_address">Адреса сервисных центров</a>
-                <a href="" class="nav-list__item btn_spec_price">Специальные цены</a>
-                <a href="" class="nav-list__item btn_feedback">Отзывы</a>
-            </div>
+            <ul class="nav-list">
+                <li a href=""  class="nav-list__item btn_brend">Ремонтируемые бренды</a></li>
+                <li a href=""  class="nav-list__item btn_device">Ремонтируемые устройства</a></li>
+                <li a href=""  class="nav-list__item btn_add_service">Дополнительные услуги</a></li>
+                <li a href=""  class="nav-list__item btn_price">Цена на услуги</a></li>
+                <li a href=""  class="nav-list__item btn_address">Адреса сервисных центров</a></li>
+                <li a href=""  class="nav-list__item btn_spec_price">Специальные цены</a></li>
+                <li a href=""  class="nav-list__item btn_feedback">Отзывы</a></li>
+            </ul>
         </nav> 
         <div class="content">
             <article class="content__item">
