@@ -131,8 +131,6 @@ body {
 }
 
 .link-btn  {
-   display: inline;
-   margin-top: auto;
    text-decoration: none;
    color:#7E7E82;
    line-height: 1; 
