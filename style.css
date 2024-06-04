@@ -89,6 +89,7 @@ body {
 }
 
 .main-title {
+    padding-top: 20px;
     display: flex;
     justify-content: flex-start;
     font-weight: bold;
