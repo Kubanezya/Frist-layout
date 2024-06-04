@@ -50,7 +50,7 @@ body{
 }
 
 .main-title {
-    
+    padding-top: 0;
     justify-content: space-between;
     width: 100vw;
     font-weight: bold;
