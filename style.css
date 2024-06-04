@@ -1,6 +1,6 @@
 @font-face {
     font-family: TTLakes;
-    src: url("font/TTLakes-Regular.woff") format("woff");
+    src: url("/font/TTLakes-Regular.woff") format("woff");
 }
 
 body {
@@ -120,20 +120,27 @@ body {
     padding-left: 16px; 
     overflow: scroll;   
 }
+.nav-list__item{
+    display: inline-block;
+    height:40px;
+    padding: 6px 15px 0 15px;
+    border: 2px solid #F8F8F8;
+    border-radius: 10px;
+    
 
-.nav-list__item  {
-   height:40px;
-   border: 2px solid #F8F8F8;
+}
+
+.link-btn  {
+   display: inline;
+   margin-top: auto;
    text-decoration: none;
    color:#7E7E82;
-   line-height: 1;
-   border-radius: 10px;
-   padding: 10px 15px;
+   line-height: 1; 
    white-space: nowrap;  
 }
 
-.nav-list__item:hover, .main_nav_item:focus {
-     border: 2px solid #B8FFEC;    
+.nav-list__item:hover, .nav-list__item:focus {
+    border: 2px solid #B8FFEC;    
 }
 
 .content__item {
@@ -173,4 +180,3 @@ margin: 0px;
 .main_logo{
     border-radius: 2px; 
 }
-
