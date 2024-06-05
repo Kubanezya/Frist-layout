@@ -1,6 +1,11 @@
 @font-face {
-    font-family: "TTLakes";
-    src: url("font/TTLakes-Regular.woff") format("woff");
+    font-family: TTLakes;
+    src: url("/font/TTLakes-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: TTLakes-Bold;
+    src: url("/font/TTLakes-Bold.woff") format("woff");
 }
 
 body {
@@ -10,12 +15,13 @@ body {
     background-color:#F8F8F8; 
 
 }
-.header{
-           
+.header{  
     background-color: white;
     margin-top: auto;
     padding:0px 20px;
+    border-bottom: 1px solid #D9FFF5;
 }
+
 .header-list{
     display: flex;
     justify-content: space-between; 
@@ -26,39 +32,48 @@ body {
 }
 
 .header-list__item{
+    background-repeat: no-repeat;
+}
+
+.round-icon {
     width: 40px;
     height: 40px;
-    background-repeat: no-repeat;
-
-}
-.burger {      
-    background-image: url(ic/burger.png);  
-    background-repeat: no-repeat;
 }
 
-.divider_left {
+.round-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    padding: 0 ;
+    background-color: transparent;
+}
+.round-link{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.item-mid{
     display: none;
-   
+}
+
+.burger {      
+    background-image: url(ic/burger.png);   
+}
+
+.item-left.divider {
+    display: none;
 }
 
 .group {
     width: 96.55px;
     height: 50.81px;
-    background-image: url(ic/group.png);
-    
+    background-image: url(ic/group.png);  
 }
 
-.call {
-   display: none;
-}
-
-.chat {
-    display: none;
- }
-
- .profile{
-    display: none;
-}
 
 .divider {
     width: 2px;
@@ -74,11 +89,11 @@ body {
     background-image: url(ic/checkstatus.png);
 }
 
-.btn_repair {
+.btn-repair {
     display: none;
 }
 
-.btn_checkstatus {
+.btn-checkstatus {
     display: none;
 }
 
@@ -103,7 +118,8 @@ body {
     line-height: 40px;
     letter-spacing: -0.6px;
     color: #1B1C21;
-    font-weight: 1000;
+    font-family: TTLakes-bold;
+    ;
 }
 
 .main_nav{
@@ -118,26 +134,30 @@ body {
     padding: 0;
     padding-top:15px;
     padding-left: 16px; 
-    overflow: scroll;   
+    overflow: auto;   
 }
 .nav-list__item{
     display: inline-block;
     height:40px;
-    padding: 6px 15px 0 15px;
-    border: 2px solid #F8F8F8;
-    border-radius: 10px;
+    padding: 0;
+   
+   
     
 
 }
 
 .link-btn  {
+   display: inline-block;
+   padding: 10px 20px;  
    text-decoration: none;
    color:#7E7E82;
    line-height: 1; 
    white-space: nowrap;  
+   border: 2px solid #F8F8F8;
+   border-radius: 6px;
 }
 
-.nav-list__item:hover, .nav-list__item:focus {
+.link-btn:hover, .link-btn:focus {
     border: 2px solid #B8FFEC;    
 }
 
