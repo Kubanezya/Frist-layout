@@ -1,17 +1,14 @@
 body {
-    margin-top: 20px;
+    margin-top: 0;
 }
 .header-list__item {
     margin-right: 20px;    
 }
-.divider_left {
+
+.item-left.divider {
     display: inline;
-    width: 2px;
-    height: 32px;
-    background-image: url(ic/divider.png); 
-     background-repeat: no-repeat;
 }
-    
+  
 .call {
     display: inline;
     margin-left:auto;
@@ -28,19 +25,19 @@ body {
     background-image: url(ic/profile.png);  
 }
     
-.btn_repair {
+.btn-repair {
      display: none;
 }
    
-.btn_checkstatus {
+.btn-checkstatus {
     display: none;
 }
     
-.button_repair {
+.button-repair {
     display: none;
 }
     
-.btn_checkstatus {
+.btn-checkstatus {
     display: none;
 }
     
